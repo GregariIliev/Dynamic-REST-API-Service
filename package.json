@@ -4,15 +4,22 @@
   "description": "rest-api",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
   "author": "gregari",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
     "pg": "^8.8.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.23.0"
+  },
+  "devDependencies": {
+    "json2csv": "^5.0.7",
+    "nodemon": "^2.0.20"
   }
 }
